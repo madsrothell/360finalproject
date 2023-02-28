@@ -1,0 +1,18 @@
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+}
+
+body{
+    background-color: rgb(54, 89, 74);
+}
+    
+.logo{
+    display: inline-block;
+}
+.menu{
+    padding: 30px 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
