@@ -12,7 +12,35 @@ body {
     margin-top: -30px;
     margin-bottom: 100px;
     padding: 80px 40px;
-  }
+}
+
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10 10;
+}
+
+h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10 10;
+}
+
+h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    padding: 10 10;
+}
+
+p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20 20;
+}
 
 .main-container{
     max-width: 960px;
@@ -53,6 +81,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 500px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .row {
@@ -76,6 +106,8 @@ body {
 .text-box {
     width: 700px;
     height: 300px;
+    padding: 30px 30px;
+    text-align: center;
     background-color: lightgray;
     transform: translateX(100%);
     display: flex;
@@ -88,7 +120,6 @@ body {
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
 }
-
   
 @keyframes rotate-shrink-move {
     0% {
@@ -110,7 +141,6 @@ body {
     }
 }
 
-
 .rotate-shrink-move-right {
     transform: rotate(0deg) scale(1.4) translate(50%);
     position: relative;
@@ -126,6 +156,8 @@ body {
 .text-box-right {
     width: 700px;
     height: 300px;
+    padding: 30px 30px;
+    text-align: center;
     background-color: lightgrey;
     transform: translateX(-100%);
     display: flex;
