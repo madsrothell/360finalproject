@@ -219,11 +219,28 @@ body {
 
 #Ball8 {
     animation-delay: 24s;
-    height: 500px;
 }
   
 #TextBoxRight8 {
     animation-delay: 25s;
+    height: 500px;
+}
+
+#Ball9 {
+    animation-delay: 27s;
+}
+  
+#TextBox9 {
+    animation-delay: 28s;
+    height: 400px;
+}
+
+#Ball10 {
+    animation-delay: 30s;
+}
+  
+#TextBoxRight10 {
+    animation-delay: 31s;
 }
   
   
