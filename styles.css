@@ -151,13 +151,24 @@ p{
     max-width: 100%;
     height: auto;
     transform: translateX(100%);
-    
+
     animation-name:cue-appear;
     animation-duration: 1s;
     animation-fill-mode:forwards;
     animation-timing-function: ease-out;
 }
-  
+
+@keyframes cue-appear {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-30%);
+    }
+}
+
 .rotate-shrink-move {
     transform: rotate(0deg) scale(1.4);
     position: relative;
